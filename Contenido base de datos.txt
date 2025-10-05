@@ -1,0 +1,87 @@
+db.eventos.insert (
+[
+{
+titulo: "Proyecto intermodular",
+    descripcion: "Realizar proyecto final de los módulos AD-DI-PMDM",
+    categoria: "DAM",
+    fechaRealizacion: new Date("2025-02-04T22:59:59Z"),
+    favorito: true,
+},
+{
+titulo: "Cumpleaños Lucía",
+    descripcion: "Fecha de cumpleaños de Lucía",
+    categoria: "Cumpleaños",
+    fechaRealizacion: new Date("2025-11-09T17:00:00Z"),
+    favorito: true,
+},
+{
+titulo: "Celebración cumple 34 P. Renard",
+    descripcion: "Tardeo en tascas. Regalo: botella blue label",
+    categoria: "Cumpleaños",
+    fechaRealizacion: new Date("2025-02-08T19:00:00Z"),
+    favorito: true,
+},
+{
+titulo: "Tomar antibiótico",
+    descripcion: "Tomar antibiótico cada 12 horas durante 10 días.",
+    categoria: "Salud",
+    fechaRealizacion: new Date("2025-02-01T08:00:00Z"),
+    favorito: false,
+},
+{
+titulo: "Comida familiar",
+    descripcion: "Comida familiar con los tíos de Albacete",
+    categoria: "Familia",
+    fechaRealizacion: new Date("2025-02-10T13:00:00Z"),
+    favorito: false,
+},
+{
+titulo: "Boda Patri y Adrián",
+    descripcion: "Bodorrio primos",
+    categoria: "Bodas",
+    fechaRealizacion: new Date("2025-02-15T12:30:00Z"),
+    favorito: true,
+},
+{
+titulo:"Bajar la basura",
+    categoria: "Hogar",
+    fechaRealizacion: new Date("2025-02-07T21:00:00Z"),
+    favorito: false,
+},
+{
+titulo:"Alimentar gato",
+    descripcion: "Poner 15g de pienso",
+    categoria: "Hogar",
+    fechaRealizacion: new Date("2025-02-01T07:00:00Z"),
+    favorito: true,
+},
+{
+titulo:"ITV Toyota RAV4",
+    descripcion: "Pedir cita ITV 5567KBZ",
+    categoria: "Mantenimiento RAV4",
+    fechaRealizacion: new Date("2025-04-19T16:00:00Z"),
+    favorito: false,
+},
+{
+titulo:"Pasar ITV Toyota RAV4",
+    descripcion: "Pasar ITV RAV4 en Villarreal",
+    categoria: "Mantenimiento RAV4",
+    fechaRealizacion: new Date("2025-04-12T17:15:00Z"),
+    favorito: false,
+},
+{
+titulo:"Aniversario",
+    descripcion: "Aniversario P&J",
+    categoria: "Pareja",
+    fechaRealizacion: new Date("2025-06-16T00:00:00Z"),
+    favorito: true,
+},
+{
+    titulo: "Nochevieja 2024",
+    descripcion: "Cena con amigos en Eslida",
+    categoria: "Ocio",
+    fechaRealizacion: new Date("2024-12-31T19:59:59Z"),
+favorito: true
+},
+]
+)
